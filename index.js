@@ -30,7 +30,6 @@ mongoose
     console.error("Failed to connect to the database:", error);
   });
 
-
 app.use(async (req, res, next) => {
   if (req.method === "OPTIONS") return next();
 
